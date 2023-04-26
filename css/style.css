@@ -74,6 +74,13 @@ header .center-nav{
   flex-basis: 40%;
   min-height: 500px;
 }
+
+.single-column{
+  min-height: 900px;
+  background-color: blueviolet;
+  border: 2px dashed black;
+}
+
 /* utilities */
 .d-flex{
   display: flex;
