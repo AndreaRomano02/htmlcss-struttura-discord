@@ -27,9 +27,8 @@ main section{
   background-color: lightgray;
 }
 /* header */
-nav .logo{
+nav .logo-header{
   min-height: 50px;
-  border: 1px dashed black;
   background-color: goldenrod;
   align-items: center;
 }
@@ -37,20 +36,17 @@ nav .logo{
 header .center-nav{
   flex-basis: 50%;
   background-color: goldenrod;
-  border: 1px dashed black;
   justify-content: center;
   align-items: center;
 }
 
 #login-nav{
   background-color: goldenrod;
-  border: 1px dashed black;
   justify-content: flex-end;
   align-items: center;
 }
 
 .jumbotron-header{
-  border: 1px dashed black;
   background-color: pink;
   margin: 50px auto;
   width: 75%;
@@ -60,14 +56,12 @@ header .center-nav{
 
 /* main */
 .large-column{
-  border: 2px dashed black;
   background-color: cyan;
   flex-basis: 60%;
   min-height: 500px;
 }
 
 .small-column{
-  border: 2px dashed black;
   background-color: pink;
   flex-basis: 40%;
   min-height: 500px;
@@ -76,7 +70,6 @@ header .center-nav{
 .single-column{
   min-height: 900px;
   background-color: blueviolet;
-  border: 2px dashed black;
 }
 
 /* footer */
@@ -92,14 +85,12 @@ header .center-nav{
   flex-basis: 30%;
   min-height: 500px;
   background-color: palevioletred;
-  border: 2px dashed black;
 }
 
 .f-column-right{
   flex-basis: 70%;
   min-height: 500px;
   background-color: blue;
-  border: 2px dashed black;
 }
 
 .f-subcolumn{
@@ -109,7 +100,6 @@ header .center-nav{
 
 .f-final{
   background-color: aqua;
-  border: 2px dashed black;
   padding: 20px 0;
   justify-content: space-between;
   align-items: center;
@@ -126,6 +116,7 @@ header .center-nav{
   border: 1px solid black;
   padding: 5px;
 }
+
 /* utilities */
 .d-flex{
   display: flex;
@@ -138,4 +129,8 @@ header .center-nav{
 .separator{
   border: 1px solid black;
   margin: 20px 0;
+}
+
+.border-dashed{
+  border: 2px dashed black;
 }
