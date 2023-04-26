@@ -6,6 +6,55 @@
 }
 
 /* general */
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
 
+#bg-header{
+  background-color: lightblue;
+}
+
+header{
+  padding: 20px 0;
+}
+/* header */
+#logo-nav{
+  min-height: 50px;
+  border: 1px dashed black;
+  background-color: goldenrod;
+  align-items: center;
+}
+
+header .center-nav{
+  flex-basis: 50%;
+  background-color: goldenrod;
+  border: 1px dashed black;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-nav{
+  background-color: goldenrod;
+  border: 1px dashed black;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jumbotron-header{
+  border: 1px dashed black;
+  background-color: pink;
+  margin: 50px auto;
+  width: 75%;
+  min-height: 400px;
+
+}
 
 /* utilities */
+.d-flex{
+  display: flex;
+}
+
+.fb-25{
+  flex-basis: 25%;
+}
