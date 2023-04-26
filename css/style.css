@@ -17,19 +17,17 @@
 
 header{
   padding: 20px 0;
-  margin-bottom: 50px;
 }
 
 main section{
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .bg-section{
   background-color: lightgray;
-  padding: 50px 0;
 }
 /* header */
-#logo-nav{
+nav .logo{
   min-height: 50px;
   border: 1px dashed black;
   background-color: goldenrod;
@@ -81,6 +79,53 @@ header .center-nav{
   border: 2px dashed black;
 }
 
+/* footer */
+#bg-footer>div{
+  padding: 50px 0;
+}
+
+#bg-footer{
+  background-color: #23272A;
+}
+
+.f-column-left{
+  flex-basis: 30%;
+  min-height: 500px;
+  background-color: palevioletred;
+  border: 2px dashed black;
+}
+
+.f-column-right{
+  flex-basis: 70%;
+  min-height: 500px;
+  background-color: blue;
+  border: 2px dashed black;
+}
+
+.f-subcolumn{
+  flex-basis: 25%;
+  border: 1px dashed white;
+}
+
+.f-final{
+  background-color: aqua;
+  border: 2px dashed black;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  background-color: gray;
+  border: 1px solid black;
+
+}
+
+.button{
+  background-color: gray;
+  border: 1px solid black;
+  padding: 5px;
+}
 /* utilities */
 .d-flex{
   display: flex;
@@ -88,4 +133,9 @@ header .center-nav{
 
 .fb-25{
   flex-basis: 25%;
+}
+
+.separator{
+  border: 1px solid black;
+  margin: 20px 0;
 }
