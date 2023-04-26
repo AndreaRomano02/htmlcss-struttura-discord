@@ -17,10 +17,16 @@
 
 header{
   padding: 20px 0;
+  margin-bottom: 50px;
 }
 
 main section{
-  margin: 30px 0;
+  margin: 50px 0;
+}
+
+.bg-section{
+  background-color: lightgray;
+  padding: 50px 0;
 }
 /* header */
 #logo-nav{
